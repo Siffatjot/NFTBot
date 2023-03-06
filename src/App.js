@@ -67,7 +67,8 @@ function App() {
   const createImage = async () => {
     setMessage("Generating Image...");
 
-    const prompt = description;
+    // If you want to generate images through DALL-E
+    /*const prompt = description;
     const API_KEY = "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";
     const URL = "https://api.openai.com/v1/images/generations";
 
@@ -93,8 +94,8 @@ function App() {
 
     const imgURL = response.data.data[0].url;
     setImage(imgURL);
+  */
 
-    /*
     // You can replace this with different model API's
     const URL = `https://api-inference.huggingface.co/models/CompVis/stable-diffusion-v1-4`;
 
@@ -122,7 +123,6 @@ function App() {
     setImage(img);
 
     return data;
-   */
   };
 
   const uploadImage = async (imageData) => {
@@ -130,8 +130,7 @@ function App() {
 
     // Create instance to NFT.Storage
     const nftstorage = new NFTStorage({
-      token:
-        "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDEzQThBMUVmYmEwN2M4NjA1YWE4NDkzMjJDMGM4REM4YTRhOWMzODQiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY3ODAyOTY3NDQxMiwibmFtZSI6Ik5GVF9Cb3QifQ.ytwVE967YYheQQ7Wz6kbohTrA-IuZO9FFW_1XoMR81Y",
+      token: process.env.REACT_APP_NFT_STORAGE_API_KEY,
     });
 
     // Send request to store image
