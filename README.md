@@ -7,8 +7,8 @@
 - To clone and run this project, you will need Git, Node.js, and a package manager such as npm or yarn installed on your machine.
 
 - Clone the repository: git clone https://github.com/Siffatjot/NFTBot.git
-- Install dependencies: npm install
-- Run the app: npm run start
+- Install dependencies: `npm install`
+- Run the app: `npm run start`
 
 ## Technology Stack & Tools
 
