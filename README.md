@@ -30,8 +30,10 @@ NFT Bot is an exciting and innovative decentralized application that opens up a 
 
 5. Create a .env file with the following values (see .env.example) and add your Hugging Face and NFT.Storage API keys:
 
-   `REACT_APP_HUGGING_FACE_API_KEY="<your hugging face api key>"`
-   `REACT_APP_NFT_STORAGE_API_KEY="<your nft.storage api key>" `
+   ```
+   REACT_APP_HUGGING_FACE_API_KEY="<your hugging face api key>"
+   REACT_APP_NFT_STORAGE_API_KEY="<your nft.storage api key>"
+   ```
 
    You can create a Hugging Face account and generate an API key by visiting your profile settings and creating a read access token. Similarly, you can create a NFT.Storage account and generate an API key.
 
