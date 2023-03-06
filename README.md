@@ -20,13 +20,22 @@ NFT Bot is an exciting and innovative decentralized application that opens up a 
 
 2. Installation Steps:
    Clone or download the repository from GitHub:
-   `git clone https://github.com/Siffatjot/NFTBot.git`
+
+   ```
+   git clone https://github.com/Siffatjot/NFTBot.git
+   ```
 
 3. Change into the project directory:
-   `cd NFTBot`
+
+   ```
+   cd NFTBot
+   ```
 
 4. Install project dependencies:
-   `npm install`
+
+   ```
+   npm install
+   ```
 
 5. Create a .env file with the following values (see .env.example) and add your Hugging Face and NFT.Storage API keys:
 
@@ -38,16 +47,27 @@ NFT Bot is an exciting and innovative decentralized application that opens up a 
    You can create a Hugging Face account and generate an API key by visiting your profile settings and creating a read access token. Similarly, you can create a NFT.Storage account and generate an API key.
 
 6. Run tests to ensure everything is working properly:
-   `npx hardhat test`
+
+   ```
+   npx hardhat test
+   ```
 
 7. Start the Hardhat node:
-   `npx hardhat node`
+
+   ```
+   npx hardhat node
+   ```
 
 8. In a separate terminal, run the deployment script:
-   `npx hardhat run ./scripts/deploy.js --network localhost`
+
+   ```
+   npx hardhat run ./scripts/deploy.js --network localhost
+   ```
 
 9. Finally, start the frontend:
-   `npm run start`
+   ```
+   npm run start
+   ```
 
 After following these steps, you should be able to use NFTBot and generate your own AI-generated NFTs to sell.
 
