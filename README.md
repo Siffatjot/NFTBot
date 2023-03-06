@@ -37,7 +37,7 @@ NFT Bot is an exciting and innovative decentralized application that opens up a 
    npm install
    ```
 
-5. Create a .env file with the following values (see .env.example) and add your Hugging Face and NFT.Storage API keys:
+5. Create a .env file with the following values and add your Hugging Face and NFT.Storage API keys:
 
    ```
    REACT_APP_HUGGING_FACE_API_KEY="<your hugging face api key>"
